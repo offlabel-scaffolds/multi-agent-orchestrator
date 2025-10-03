@@ -2,15 +2,15 @@
 
 Hierarchical multi-agent system with LangGraph orchestration
 
-## 🎯 Features
+## Core Features
 
-- ✅ Multi Agent
-- ✅ Orchestration
-- ✅ Streaming
-- ✅ Unit Tests
-- ✅ Docker
+- Multi Agent
+- Orchestration
+- Streaming
+- Unit Tests
+- Docker
 
-## 🚀 Quick Start
+## Setup
 
 ```bash
 # Clone the repository
@@ -33,7 +33,7 @@ npm test
 npm run build
 ```
 
-## 📦 Tech Stack
+## Under the Hood
 
 - LangGraph
 - OpenAI
@@ -41,30 +41,30 @@ npm run build
 - Redis
 - PostgreSQL
 
-## 🏗️ Architecture
+## ️ Architecture
 
 ```
 multi-agent-orchestrator/
-├── src/                    # Source code
-│   ├── core/              # Core functionality
-│   ├── utils/             # Utilities
-│   └── config/            # Configuration
-├── tests/                  # Test files
-│   ├── unit/              # Unit tests
-│   └── integration/       # Integration tests
-├── docs/                   # Documentation
-├── .github/workflows/      # CI/CD pipelines
+├── src/ # Source code
+│ ├── core/ # Core functionality
+│ ├── utils/ # Utilities
+│ └── config/ # Configuration
+├── tests/ # Test files
+│ ├── unit/ # Unit tests
+│ └── integration/ # Integration tests
+├── docs/ # Documentation
+├── .github/workflows/ # CI/CD pipelines
 ├── Dockerfile
 ├── docker-compose.yml
 └── README.md
 ```
 
-## 🔒 Security Features
+## Security Features
 
-- ✅ Input Validation
-- ✅ Rate Limiting
+- Input Validation
+- Rate Limiting
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -77,7 +77,7 @@ npm run test:coverage
 npm run test:unit
 ```
 
-## 📊 Monitoring & Observability
+## Monitoring & Observability
 
 - Structured logging
 - Metrics collection
@@ -85,7 +85,7 @@ npm run test:unit
 - Performance monitoring
 - Live demo dashboard
 
-## 🚢 Deployment
+## Deployment
 
 ### Docker
 ```bash
@@ -103,7 +103,7 @@ kubectl apply -f k8s/
 docker-compose up -d
 ```
 
-## 📚 Documentation
+## Documentation
 
 - [Getting Started](./docs/getting-started.md)
 - [Configuration](./docs/configuration.md)
@@ -111,15 +111,15 @@ docker-compose up -d
 - [Deployment Guide](./docs/deployment.md)
 - [Security Best Practices](./docs/security.md)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Please read our [Contributing Guide](CONTRIBUTING.md).
 
-## 📄 License
+## License
 
 MIT - Built by Augustus Rivers at Offlabel Design
 
-## 💬 Support
+## Support
 
 - **Email:** hello@offlabel.design
 - **GitHub:** https://github.com/offlabel-scaffolds/multi-agent-orchestrator
@@ -129,5 +129,5 @@ MIT - Built by Augustus Rivers at Offlabel Design
 
 **Maturity:** beta | **Complexity:** advanced | **Last Updated:** 2025-01-03
 
-**🎮 [View Live Demo →](https://demo.offlabel.design/multi-agent-orchestrator)**
+** [View Live Demo →](https://demo.offlabel.design/multi-agent-orchestrator)**
 
