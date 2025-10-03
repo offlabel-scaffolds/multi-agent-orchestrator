@@ -41,7 +41,7 @@ npm run build
 - Redis
 - PostgreSQL
 
-## ️ Architecture
+## Architecture
 
 ```
 multi-agent-orchestrator/
